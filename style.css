@@ -1,3 +1,34 @@
 body {
+    background-color: hsl(180, 85%, 48%);
+}
+.background {
     background-color: beige;
+    height: 650px;
+    width: 1270px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+}
+header {
+    text-align: center;
+}
+img {
+    position: absolute;
+    left: 180px;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+ul {
+    position: relative;
+    top: 700px;
+}
+footer {
+    position: relative;
+    top: 800px;
 }

@@ -9,6 +9,7 @@ body {
     border-radius: 10px;
     position: absolute;
     left: 50px;
+
 }
 header {
     text-align: center;
@@ -31,4 +32,18 @@ ul {
 footer {
     position: relative;
     top: 800px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 300px) {
+    body {
+        width: 70vmin;
+    }
+}
+@media (max-height: 250px) {
+    body {
+        height: 80vmin;
+    }
 }
